@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+:root {
+    --color1: #2f3640;
+    --color2: #f5f6fa;
+    --color-sback: rgba(0, 255, 0, 0.1);
+    --color-eback: #f8f59f;
+    --color-sbuton: #009432;
+    --color-ebuton: #ff9f1a;
+    --color-tecbuton: #0063f8;  
+    --color-tecback:  #c0d9ff;
+    --color-trabuton: #ff6600;
+    --color-traback: #fcc9a7;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header, footer{
+    background-color: var(--color1);
+    color: var(--color2);
+    padding: 16px 0px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: var(--color2);
+    text-decoration: none;
+}
+
+header li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 16px 0px;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    font-size: 32px;
+}
+
+#sports {
+    background-color: var(--color-sback);
+}
+
+#sports article a {
+    background-color: var(--color-sbuton);
+}
+
+#economy {
+    background-color: var(--color-eback);
+}
+
+#economy article a {
+    background-color: var(--color-ebuton);
+}
+
+#tecnology {
+    background-color: var(--color-tecback);
+}
+
+#tecnology article a {
+    background-color: var(--color-tecbuton);
+}
+
+#travels {
+    background-color: var(--color-traback);
+}
+
+#travels article a {
+    background-color: var(--color-trabuton);
+}
+
+.container {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+    width: 100%;
+}
+
+.articles article {
+    margin-bottom: 16px;
+    width: 30%;
+}
+
+.articles article h3 {
+    margin: 8px 0px;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.articles article p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.articles article a {
+    display: inline-block;
+    background-color: var(--color1);
+    color: var(--color2);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 2px;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+footer li {
+    display: block;
+    position: relative;
+    left: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-right: 16px;
+}
+
+footer li a {
+    color: var(--color2);
+    text-decoration: none;
+}
+
+footer li a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    text-align: center;
+    font-size: 16px;
+}
