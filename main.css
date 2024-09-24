@@ -1,0 +1,286 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+main {
+    max-width: 1024px;
+    width: 90%;
+    margin: 50px auto;
+}
+
+p {
+    text-align: justify;
+}
+
+header, 
+footer{
+    background-color: #ffa722;
+    padding: 24px;
+    width: 100%;
+}
+
+.container, 
+header,
+#about-us, 
+#social {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.menu {
+    float: left;
+}
+
+.container ul {
+    display: flex;
+    align-items: center;
+}
+
+.container li {
+    margin-right: 16px;
+    list-style-type: none;
+}
+
+.container li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#about-us {
+    margin-bottom: 50px;
+}
+
+hr {
+    margin: 8px 0 16px;
+    border: 1px solid #ffa722;
+}
+
+#social hr {
+    display: none;
+}
+
+#about-us img {
+    width: 400px;
+    padding-right: 2em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+#products ul {
+    display: grid;
+    grid-template-columns: repeat(4, 24.25%);
+    column-gap: 1%;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#products ul li {
+    list-style-type: none;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+#products p {
+    font-size: 0.9em;
+    padding-bottom: 8px;
+}
+
+#products img {
+    width: 100%;
+}
+
+#products  li > button {
+    padding: 16px;
+    font-weight: bold;
+    border: none;
+    background-color: #ffa722;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin: 8px 0;
+}
+
+.shoes-size {
+    margin-bottom: 8px;
+}
+
+.shoes-size button {
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #ffa722;
+    border: none;
+    font-weight: bold;
+    font-size: 0.7em;
+    cursor: pointer;
+    margin-right: 4px;
+}
+
+.shoes-size button:hover, 
+#products li > button:hover {
+    background-color: #c07d19;
+    color: #fff;
+}
+
+.model{
+    width: 200px;
+    margin-right: 1%;
+}
+
+h3 {
+    padding: 16px 0;
+}
+
+#social h2 {
+    padding: 8px 0;
+}
+
+#social ul{
+    display: flex;
+}
+
+#social li {
+    list-style-type: none;
+}
+
+.social-media img {
+    height: 2em;
+    padding-right: 2em;
+}
+
+footer p {
+    text-align: center;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 641px) {
+    main {
+        max-width: 600px;
+        width: 100%;
+        margin: 50px auto;
+    }
+    
+    #about-us {
+        display: block;
+        justify-content: center;
+    }
+    
+    #about-us img {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    #products ul {
+        display: grid;
+        grid-template-columns: repeat(2, 48%);
+        column-gap: 1%;
+        row-gap: 32px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    #social {
+        display: block;
+        text-align: center;
+    }
+
+    #social h2 {
+        text-align: justify;
+        padding: 16px 0 0;
+    }
+
+    #social ul{
+        display: block;
+    }
+
+    #social li {
+        padding-bottom: 8px;
+    }
+
+    #social hr {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    main {
+        max-width: 400px;
+    }
+
+    header {
+        padding: 16px;
+    } 
+
+    footer {
+        padding: 8px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    header li {
+        font-size: 0.9em;
+    }
+
+    #about-us {
+        display: block;
+    }
+    
+    #about-us img {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 8px;
+        padding: 0 auto;
+    }
+
+    #products ul {
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        row-gap: 32px;
+        width: 90%;
+        margin: 0 auto 50px;
+    }
+
+    #social {
+        display: block;
+        text-align: center;
+    }
+
+    #social h2 {
+        text-align: justify;
+    }
+
+    #social ul{
+        display: block;
+    }
+
+    #social li {
+        padding-bottom: 8px;
+    }
+
+    #social hr {
+        display: block;
+    }
+
+    footer {
+        font-size: 0.9em;
+    }
+}
