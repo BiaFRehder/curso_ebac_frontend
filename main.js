@@ -23,14 +23,14 @@ form.addEventListener('submit', function(e){
     }
 })
 
-var recarregar = document.querySelector('.link');
+let recarregar = document.querySelector('.link');
 recarregar.addEventListener('click', recarregarPagina);
 
 function recarregarPagina(recarregar) {
     window.location.reload();
 }
 
-var resetar = document.querySelector('.resetar');
+let resetar = document.querySelector('.resetar');
 resetar.addEventListener('click', resetarValores);
 
 function resetarValores(resetar) {
