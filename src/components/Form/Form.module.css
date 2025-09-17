@@ -1,0 +1,86 @@
+.content {
+    padding-top: 130px;
+    margin-bottom: 40px;
+    display: block;
+    justify-items: center;
+    color: var(--colorBlack);
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.text {
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+
+.input, .button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 2px;
+    height: 50px;
+    border: 1px solid var(--colorBlack);
+    border-radius: 4px;
+    color: var(--colorBlack);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.input::placeholder {
+    color: var(--colorOpacity);
+}
+
+.label {
+    display: block;
+    padding: 16px 0 8px;
+    justify-self: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.button {
+    width: 100%;
+    margin: 16px 0;
+    border: 1px solid var(--colorBlack);
+    background-color: var(--colorBlack);
+    color: var(--colorText);
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.color_1 {
+    background-color: var(--color_1);
+}
+
+.color_2 {
+    background-color: var(--color_2);
+}
+
+.color_3 {
+    background-color: var(--color_3);
+}
+
+.color_4 {
+    background-color: var(--color_4);
+}
+
+.color_5 {
+    background-color: var(--color_5);
+}
+
+.color_6 {
+    background-color: var(--color_6);
+}
+
+.err {
+    color: red;
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}

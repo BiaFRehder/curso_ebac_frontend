@@ -1,0 +1,20 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 16px;
+    background-color: var(--colorBlack);
+    justify-items: center;
+}
+
+.text {
+    background-color: var(--colorBlack);
+    color: var(--colorText);
+}
+
+.link {
+    background-color: var(--colorBlack);
+    color: var(--colorText);
+    text-decoration: none;
+    font-weight: bold;
+}

@@ -1,0 +1,18 @@
+.content {
+    border: 1px solid var(--colorBlack);
+    color: var(--colorBlack);
+    text-align: center;
+    justify-self: center;
+    margin-bottom: 40px;
+    padding: 24px;
+    border-radius: 10px;
+    width: auto;
+}
+
+.title {
+    padding-bottom: 24px;
+}
+
+.result {
+    font-weight: bold;
+}

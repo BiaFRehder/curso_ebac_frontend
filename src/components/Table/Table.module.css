@@ -1,0 +1,57 @@
+.content {
+    padding-bottom: 80px;
+    text-align: center;
+    color: var(--colorBlack);
+}
+
+.title {
+    padding-bottom: 24px;
+    font-weight: bold;
+}
+
+.table {
+    justify-self: center;
+    border-spacing: 4px;
+    width: auto;
+    text-align: center;
+}
+
+.colHead {
+    border-bottom: 2px solid var(--colorBlack);
+    font-weight: bold;
+}
+
+.col {
+    border-bottom: 1px solid var(--colorBlack);
+    padding: 2px;
+}
+
+.color_1 {
+    font-weight: bold;
+    color: var(--color_1);
+}
+
+.color_2 {
+    font-weight: bold;
+    color: var(--color_2);
+}
+
+.color_3 {
+    font-weight: bold;
+    color: var(--color_3);
+}
+
+.color_4 {
+    font-weight: bold;
+    color: var(--color_4);
+}
+
+.color_5 {
+    font-weight: bold;
+    color: var(--color_5);
+}
+
+.color_6 {
+    font-weight: bold;
+    color: var(--color_6);
+}
